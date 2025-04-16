@@ -1,0 +1,85 @@
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:#f9f9f9;
+    line-height: 1.6;
+    color: #333;
+    height: 100vh;
+}
+/*navbar*/
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    padding: 20px 40px;
+    background-color: #d9d1d1;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+.logo{
+    font-size: 24px;
+    font-weight: 600;
+    color: #222;
+}
+.narpage a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: #555;
+    font-weight: 500;
+    transition: 0.3s;
+}
+.nav-narpage a:hover{
+    color: #000;
+}
+content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 40px ;
+    height: 90vh;
+    background: linear-gradient(to right,#f0f4f8,#ffffff);
+    background-image: url('image.jpeg');
+    background-repeat: no-repeat;
+    background-position: 0% 20%;
+    background-attachment: fixed;
+    background-size:cover;
+}
+.banner-text{
+    max-width: 50%;
+    margin-bottom: 15%;
+}
+.banner-text h1{
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #111;
+}
+.banner-text p{
+    font-size:18px;
+    margin-bottom: 30px;
+    color: #555;
+}
+.btn{
+    display: inline-block;
+    background-color: #000;
+    padding: 12px 24px;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background 0.3s;
+    
+}
+.btn:hover{background-color: #444;
+}
+content img{
+    
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+@media screen and (max-width:700px) {
+
+}
+

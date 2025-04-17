@@ -15,21 +15,22 @@ body{
     display:flex;
     justify-content: space-between;
     align-items: center;
-    height: 10vh;
-    padding: 20px 40px;
+    height:5vh;
+    padding: 15px 30px;
     background-color: #d9d1d1;
     box-shadow: 0 2px 5px rgba(0,0,0,0.05);
 }
 .logo{
-    font-size: 24px;
+    font-size: 4vh;
     font-weight: 600;
     color: #222;
 }
 .narpage a{
-    margin-left: 20px;
+    margin-left: 10px;
     text-decoration: none;
     color: #555;
     font-weight: 500;
+    font-size: 3vh;
     transition: 0.3s;
 }
 .nav-narpage a:hover{
@@ -44,16 +45,17 @@ content{
     background: linear-gradient(to right,#f0f4f8,#ffffff);
     background-image: url('image.jpeg');
     background-repeat: no-repeat;
-    background-position: 0% 20%;
+    background-position: 30% 10%;
     background-attachment: fixed;
     background-size:cover;
 }
 .banner-text{
     max-width: 50%;
     margin-bottom: 15%;
+    font-size: 3vh;
 }
 .banner-text h1{
-    font-size: 48px;
+    
     margin-bottom: 20px;
     color: #111;
 }

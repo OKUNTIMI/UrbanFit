@@ -82,7 +82,7 @@ body {
   margin-top: 20px;
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:350px) {
   .features{
     display: flex;
   }  

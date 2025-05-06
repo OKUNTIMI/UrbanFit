@@ -18,7 +18,7 @@ body{
 .navbar{
     display:flex;
     justify-content: space-between;
-    max-height: 100%;
+    max-height: 10vh;
     max-width: 100%;
     padding: 15px 30px;
     background-color: #d9d1d1;
@@ -52,8 +52,12 @@ body{
     background: #1d1b1b9d;
     border-radius: 50px;
     transform: scaleX(0);
-    transition: 0.5s;
+    transition: 0.3s;
     transition-timing-function: ease-in-out;
+}
+
+.narpage a:hover{
+    color: #1d1b1b9d;
 }
 
 .narpage a:hover::before{
@@ -63,11 +67,13 @@ body{
 .sales {
     max-width: 100%;
     display: flex;
+    max-height: 100vh;
 }
 
 .major {
     width: 46%;
-    position: relative;
+    position: sticky;
+    overflow: hidden;
     z-index: 1;
     box-shadow: 0 1px 4px rgba(36, 35, 35, 0.748);
     background-image: url('../img/hooddie.jpeg');
@@ -75,13 +81,14 @@ body{
     background-size: cover;
     background-position: center;
     border-radius: 10px;
-    margin: 30px;
+    margin: 4px;
 }
-.major, .majors-content{
+.major .majors-content{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding: 50px   ;
     text-align: center;
     color: #fff;
     font-family: 'Courier New', Courier, monospace;
@@ -114,12 +121,11 @@ body{
 
 .sale {
     width: 54%;
-    position: scroll;
+    overflow-y: scroll;
     height: 100vh;
 }
 
 .sale .rows {
-    display: block;
     display: flex;
 }
 
